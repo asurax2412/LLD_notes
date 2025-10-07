@@ -17,7 +17,7 @@ The Singleton Design Pattern is a creational design pattern that ensures a class
 ```cpp
 class Singleton{
     private:
-    static Singleton* instance;  // Static member variable
+    static Singleton* instance;  // Static member 
     
     Singleton(){                 // Private constructor
         cout<<"Object created "<<endl;
